@@ -43,7 +43,7 @@ body {
 
 .nav-links a {
 	text-decoration: none;
-	color: #333;
+	color: #633030;
 	font-weight: 500;
 }
 
@@ -94,4 +94,25 @@ body {
 .profile-image {
 	width: 300px;
 	border-radius: 10px;
+}
+
+/* ABOUT */
+.about{
+	    border-radius: 20px;
+        background: #cc9e7c;
+        margin: 130px auto;
+   
+        
+}
+.about h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #201910;
+	text-align: center;
+}
+.about p {
+	margin-top: 10px;
+	margin-left: 20px;
+	text-align: center;
+	
 }
