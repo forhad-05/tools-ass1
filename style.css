@@ -98,9 +98,9 @@ body {
 
 /* ABOUT */
 .about{
-	    border-radius: 20px;
-        background: #cc9e7c;
-        margin: 130px auto;
+	border-radius: 20px;
+    background: rgb(178, 219, 219);
+    margin: 130px auto;
    
         
 }
@@ -137,7 +137,7 @@ body {
 }
 
 .project-card {
-    background: white;
+    background: rgb(178, 219, 219);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -217,4 +217,84 @@ body {
     font-size: 22px;
     color: #222;
     padding-bottom: 5px;
+}
+
+/* Footer Container */
+footer {
+    background-color: #1f2b24;
+    color: #fff;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #adafc4;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+	color: #4caf50;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    resize: none;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: rgb(178, 219, 219);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color:rgb(57, 109, 109);
 }
