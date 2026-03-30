@@ -160,3 +160,61 @@ body {
 .project-card a:hover {
     text-decoration: underline;
 }
+/* SKILLS */
+#skills-title {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.skills h2 {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+
+}
+.skills-layout {
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: space-between;
+    gap: 20px;              
+    margin-top: 20px;
+}
+
+.skill-card {
+    flex: 1 1 200px;       
+    max-width: 220px;      
+    background: rgb(178, 219, 219);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px;
+    transition: 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 20px;
+}
+
+.skill-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.skill-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.skill-category {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #222;
+    padding-bottom: 5px;
+}
