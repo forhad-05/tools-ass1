@@ -118,7 +118,7 @@ body {
 	
 }
 
-//* PROJECTS */
+/* PROJECTS */
 .projects{
 	text-align: center	;
 }
@@ -287,14 +287,75 @@ footer h2 {
 button[type="submit"] {
     padding: 12px;
     background-color: rgb(178, 219, 219);
-    color: #fff;
-    border: none;
+    color: #1f2b24;
+    border: 1px solid #4f7c7c;
     border-radius: 10px;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button[type="submit"]:hover {
-    background-color:rgb(57, 109, 109);
+    background-color: rgb(57, 109, 109);
+    color: #fff;
+}
+
+
+
+/*responsive design */
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+		margin-left: 20px;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+	.hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-image {
+        width: 200px; 
+       padding-bottom: 20px;
+    }
+    .hero-text h1 {
+        font-size: 28px; 
+    }
+    .intro-pill {
+        font-size: 16px;
+    }
+	.about {
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+	.skills-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+	footer{
+		padding-top: 10px;
+	}
+	footer h2 {
+		font-size: 24px;
+		margin-bottom: 0px;
+	}
+	.contact-info {
+		margin-bottom: 0px;
+	}
+	.contact-form {
+        width: 95%;
+        margin: 0 auto;
+    }
+    button[type="submit"] {
+        width: 100%;
+    }
+ 
 }
